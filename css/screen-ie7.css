@@ -1,0 +1,103 @@
+.jqTransformSelectWrapper ul li { 
+	display: inline-block;
+	height: 31px;
+	line-height: 31px; 
+}
+.box--friends,
+.friend-request__content,
+.feed-comment { min-height: 0; }
+.box--register table td label { font-size: 13px; }
+.private-profile__title {
+	height: 41px;
+}
+.link-private-profile__title {
+	position: absolute;
+	right: 20px;
+	top: 0;
+	display: block;
+}
+
+.private-profile__content-edit dd, 
+.private-profile__content dd {
+	width: 700px;
+}
+
+.table-opt tbody .fix-last-row td {
+	border-bottom: 3px solid #e7e7e7;
+}
+.textarea-holder textarea {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+.user-profile .user-profile__field .user-profile__label {
+	width: 400px;
+}
+.l-msg-mainlist .message__new-message-bar {
+	height: 28px;
+}
+.private-profile__table-content .is-symbol-unchecked {
+	position: relative;
+	top: -5px;
+}
+
+.achievements__my-score td .score-level {
+	padding: 2px 7px;
+	display: inline;
+}
+
+.score-table .level-set {
+	position: relative;
+	display: inline;
+	padding: 3px 4px;
+}
+
+
+.view-tournaments .input-wrapper input {
+	position: relative;
+	top: -7px;
+}
+.search-area .search-text {
+	position: relative;
+	top: -5px;
+}
+.get-started-box .box--small-widget > ul .expand .root-label {
+	height: 43px;
+}
+.remove-input-icon {
+	top: 7px;
+	margin-top: 0;
+}
+.do-search {
+	top: 2px;
+	height: 25px;
+}
+
+.deadline-col, .no-border td {
+	padding-bottom: 20px;
+}
+.award-placement {
+	padding-right: 10px;
+}
+.view-tournaments .tournaments-table td, .my-tournamments table td {
+	height: 40px;
+}
+
+/*Forum pages*/
+.content--forum .jqTransformSelectWrapper ul li { 
+	display: inline-block;
+	height: 30px;
+	line-height: 30px; 
+}
+.content--forum .jqTransformSelectWrapper ul li a{ 
+	line-height: 14px;
+}
+
+.footer-bottom .social-links{
+	width:126px;
+	}
+	.news-details__button .buttons{
+		position:relative;
+		left:-32px;
+		}

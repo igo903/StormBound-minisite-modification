@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- Meta Tag -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Quests</title>
+    <!-- External CSS -->
+    <link href="css/base.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/modules.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/layout.css" type="text/css" rel="stylesheet" media="screen" />
+    
+    <!--[if IE 7]>
+    <link href="css/screen-ie7.css" type="text/css" rel="stylesheet" media="screen" />
+    <![endif]-->
+    
+    <!-- External Javascript -->
+    <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="js/jquery.dateFormat-1.0.js" type="text/javascript"></script>
+    <script src="js/jquery-ui-1.9.2.js" type="text/javascript"></script>
+    <script src="js/jquery.jqtransform.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    
+    <!-- skin -->
+    <link href="css/minisite5/modules.css" type="text/css" rel="stylesheet" media="screen" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/minisite5/PIE_IE678.js"></script>
+    <![endif]-->
+    <!--[if IE 9]>
+    <script type="text/javascript" src="js/minisite5/PIE.js"></script>
+    <![endif]-->
+    <script src="js/minisite5/scripts.js" type="text/javascript"></script>
+    
+</head>
+
+<body>
+<div class="l-header clearfix">
+	<div class="content">
+		<div class="panel float-right">
+			<a href="javascript:;" class="btn float-left js-sign-in btn-signIn">Sign In</a>
+			<a href="javascript:;" class="btn float-left btn--fbSignIn">Sign In</a>
+			<a href="javascript:;" class="btn float-left btn--reg">Register</a>
+			<div class="search-box">
+				<a href="javascript:;">GO</a>
+				<input type="text" value="Search Members" />
+			</div>
+			<!--End .search-box-->
+		</div>
+		<!--End .panel-->
+		<div class="float-left"><img src="i/minisite5/verigames-logo.png" alt="VERIGAMES" /></div>
+		<ul class="social-links float-left">
+        <li><a href="javascript:;" class="social-links_fb">facebook</a></li>
+        <li><a href="javascript:;" class="social-links_tw">twitter</a></li>
+        <li><a href="javascript:;" class="social-links_plus">+</a></li>
+    </ul>
+<!--End .social-links-->
+	</div>
+	<!--End .content-->
+</div>
+<!--End .l-header-->
+<div class="l-mainContent clearfix">
+    <div class="l-navigationHeader l-navigationHeader--logged-in clearfix">
+        <ul class="float-right">
+            <li><a href="home.html" class="home"><i></i>Home</a></li>
+            <li><a href="play.html" class="play"><i></i>Play</a></li>
+            <li><a href="Newspage.html" class="news"><i></i>News</a></li>
+            <li><a href="profile.html" class="profile"><i></i>Profile</a></li>
+            <li><a href="javascript:;" class="achievements"><i></i>Achievements</a></li>
+            <li><a href="quests.html" class="quests is-active is-quests-active"><i></i>Quests</a></li>
+            <li><a href="forums-main.html" class="forum"><i></i>Forum</a></li>
+        </ul>
+    	<div class="title"><img src="i/minisite5/storm-bound-logo.png" alt="STORM BOUND" /></div>
+
+    </div>
+    <!-- End .l-navigationHeader -->
+    <div>
+        <div class="box box--tournaments">
+            <div class="view-tournaments js-tournamments is-filter-show">
+                <div class="box__title">
+                    <div class="float-right box__title--filter">
+                        <a href="javascript:;" class="button float-right js-filter-button filter-button">FILTER</a>
+                        <div class="input-wrapper float-right">
+                            <input type="text" value="type keyword" />
+                            <a href="javascript:;" class="icon-search"></a>
+                        </div>
+                        <label class="float-right">Search</label>
+                        <div class="select-wrapper js-jqtransform float-right">
+                            <select class="filter-status js-filter-status1">
+                                <option value="0">All</option>
+                                <option value="1">Still Running</option>
+                                <option value="2">Completed</option>
+                            </select>
+                        </div>
+                        <label class="float-right">Show</label>
+                    </div>
+                    <span>QUESTS</span>
+                </div>
+                <div class="filter-pane">
+                    <div class="row  js-z-index-fix">
+                        <div class="label-col1 float-left">Rules</div>
+                        <div class="label-col2 float-left js-jqtransform">
+                            <select class="filter-select">
+                                <option value="-1">Select</option>
+                            </select>
+                        </div>
+                        <div class="label-col3 float-left">Start Date</div>
+                        <div class="date-wrapper float-left label-col4">
+                            <input type="text" class="js-calendars date" />
+                            <a href="javascript:;" class="js-date-icon date-icon"></a>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- .row -->
+                  <div class="row  js-z-index-fix">
+                        <div class="label-col1 float-left">Pre-requisite</div>
+                        <div class="label-col2 float-left js-jqtransform">
+                            <select class="filter-select">
+                                <option value="-1">Select</option>
+                            </select>
+                        </div>
+                        <div class="label-col3 float-left">End Date</div>
+                        <div class="date-wrapper float-left label-col4">
+                            <input type="text" class="js-calendars date" />
+                            <a href="javascript:;" class="js-date-icon date-icon"></a>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- .row -->
+                    <div class="row  js-z-index-fix">
+                        <div class="label-col1 float-left">Skills</div>
+                        <div class="label-col2 float-left js-jqtransform">
+                            <select class="filter-select">
+                                <option value="-1">Select</option>
+                            </select>
+                        </div>
+                        <div class="label-col3 small-font float-left">Winner Handle (Completed)</div>
+                        <div class="date-wrapper float-left label-col4">
+                            <input type="text" class="text" />
+                        </div>
+                        <div class="button-wrapper float-right">
+                            <a href="javascript:;" class="reset-button js-reset-button">reset</a>
+                            <a href="javascript:;" class="view-button js-view-button">view</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- .row -->
+                </div>
+                <div class="js-search-title search-title is-hidden">
+                    <strong>Search Result,</strong> found <span>13</span> Tournaments
+                </div>
+                <table class="tournaments-table js-quests-table js-data-render js-profile-friends">
+                    <colgroup>
+                        <col width="210" />
+                        <col width="90" />
+                        <col width="170" />
+                        <col width="155" />
+                        <col width="155" />
+                        <col />
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th><a href="javascript:;" class="sortable js-sortable">Name</a></th>
+                            <th><a href="javascript:;" class="sortable js-sortable">Eligible</a></th>
+                            <th><a href="javascript:;" class="sortable js-sortable">Description</a></th>
+                            <th><a href="javascript:;" class="sortable js-sortable">Start Date</a></th>
+                            <th><a href="javascript:;" class="sortable js-sortable">End Date</a></th>
+                            <th>Honors</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="js-friend-request is-td-col">
+                                <a href="quests-details.html" class="my-tournaments-name username">
+                                    <img src="./asset/asset23.png" alt="" />NameLorem Ipsum
+                                </a>
+                            </td>
+                            <td class="align-center"><span class="eligible">Yes</span></td>
+                            <td>Lorem ipsum dolor sit...</td>
+                            <td>dd/mm/yyyy   00:00:00</td>
+                            <td>dd/mm/yyyy   00:00:00</td>
+                            <td>
+                                <span class="winner">$0000</span>
+                                <span class="second-place">$0000</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div><!-- tournaments -->
+        </div>
+        <!--End .box-->
+    </div>
+    <!--End .l-content-->
+</div>
+<!-- End .l-mainContent -->
+<div class="l-footer">
+	<div class="content">
+		<div class="footer-bottom clearfix">
+<span class="footer-decoration"></span>
+			<div class="footer-bottom-left float-left">
+				<p class="title"><img src="i/minisite5/storm-bound-logo.png" alt="" /></p>
+				<p>Our mission is to lorem ipsum dolor sit amet conseqtetur adispicing elit laguen ad fdioa ngofaor</p>
+				<span>&copy;2012 CSVF, Inc.</span>
+			</div>
+            <!--End .footer-bottom-left-->
+			<div class="footer-bottom-right float-right">
+				<ul class="sitemap-links float-right">
+					<li class="sitemap-links_first"><a href="home-loggedin.html">Home</a></li>
+                    <li><a href="javascript:;">Privacy Policy </a></li>
+					<li><a href="javascript:;">Terms and Conditions</a></li>
+					<li><a href="javascript:;">About Us</a></li>
+				</ul>
+				<ul class="social-links float-right">
+					<li><a href="javascript:;" class="social-links_fb"><span>facebook</span></a></li>
+					<li><a href="javascript:;" class="social-links_tw">twitter</a></li>
+					<li><a href="javascript:;" class="social-links_plus">+</a></li>
+				</ul>
+			</div>
+            <!--End .footer-bottom-right-->
+		</div>
+		<!--End .footer-bottom-->
+	</div>
+    <!--End .content -->
+</div>
+<!--End .l-footer-->
+<div class="alpha"></div>
+<!--End .alpha-->
+<div class="popup popup--login">
+    <div class="popup__title popup__title-left">
+        <div class="popup__title-right">
+            <div class="popup__title-mid">
+                <strong>LOGIN</strong>
+                <a href="javascript:;" class="close-btn">X</a>
+            </div>
+        </div>
+    </div>
+    <!--End .popup__title-->
+    <div class="popup__content popup__content-left">
+        <div class="popup__content-right">
+            <div class="popup__content-mid">
+                <div class="login">
+                    <table cellpadding="0" cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <td><label>Username or Email</label></td>
+                                <td><input type="text" class="text" value="Username here" /></td>
+                            </tr>
+                            <tr class="pwd">
+                                <td><label>Password</label></td>
+                                <td><input type="password" class="text" value="Password" /></td>
+                            </tr>
+                            <tr class="remember">
+                                <td></td>
+                                <td class="js-jqtransform">
+                                    <a href="javascript:;" class="login__forgot float-right">FORGOT PASSWORD?</a>
+                                    <input type="checkbox" /><label class="cb-label">Remember me</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <a href="javascript:;" class="social plus">plus</a>
+                                    <a href="javascript:;" class="social tw">twitter</a>
+                                    <a href="javascript:;" class="social fb">facebook</a>
+                                    <a href="quests-loggedin.html" class="button">LOGIN</a>or Login using
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="login__register">Need an Account?<a href="javascript:;">REGISTER</a></div>
+                    <!--End .login__register-->
+                </div>
+                <!--End .login-->
+            </div>
+        </div>
+    </div>
+    <!--End .popup__content-->
+    <div class="popup__footer popup__footer-left">
+        <div class="popup__footer-right">
+            <div class="popup__footer-mid"></div>
+        </div>
+    </div>
+</div>
+<!--End .popup login-->
+
+<div class="firend-request__info tournaments-popup">
+    <span class="firend-triangle"></span>
+    <h4 class="firend-request__info-titles">Quest Name</h4>
+    <div class="friend_data">
+        <div class="inforblock is-friend">
+            <img src="asset/asset30.png" alt="" class="float-left" />
+            <p class="desc-para">Lorem ipsum dolor sit amet adispicus totem consectetur dolor sit amet.</p>
+            <div class="runing-status">1 day 42 mins left</div>
+        </div>
+        <div class="inforblock plat-block is-friend">
+            <span class="prize-block"><strong>PRIZE</strong></span>
+            <img src="i/icon-rank1.png" alt="" />$000
+            <img src="i/icon-rank2.png" alt="" />$000
+            <img src="i/icon-rank3.png" alt="" />$000
+        </div>
+        <div class="inforblock-alt is-friend">
+            <a href="quests-details.html" class="details-button button">DETAILS</a>
+            <a href="#" class="button">JOIN NOW</a>
+            <a href="#" class="button add-friend--alt">SHARE</a>
+        </div>    
+        <div class="inforblock is-my-score">
+            <img src="asset/asset30.png" alt="" class="float-left" />
+            <p class="desc-para">Lorem ipsum dolor sit amet adispicus totem consectetur dolor sit amet.</p>
+            <div class="complete-status">Completed</div>
+        </div>
+        <div class="inforblock is-my-score">
+            <table class="infor-table">
+                <thead>
+                    <tr>
+                        <th>WINNER</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="i/icon-rank1.png" alt="" /><span>$000</span></td>
+                        <td><img src="i/user-photo-small.png" alt="" /><a class="tournament-name" href="UserProfile-nonloggedinprofilepage.html">Username A</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="i/icon-rank2.png" alt="" /><span>$000</span></td>
+                        <td><img src="i/user-photo-small.png" alt="" /><a class="tournament-name" href="UserProfile-nonloggedinprofilepage.html">Username B</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="i/icon-rank3.png" alt="" /><span>$000</span></td>
+                        <td><img src="i/user-photo-small.png" alt="" /><a class="tournament-name" href="UserProfile-nonloggedinprofilepage.html">Username C</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="inforblock-alt is-my-score">
+            <a href="quests-details.html" class="button">DETAIL RESULT</a>
+            <a href="#" class="button add-friend--alt">SHARE</a>
+        </div>
+    </div>
+    <div class="dp-shadow">
+        <div class="shadow-top-left"></div>
+        <div class="shadow-top-right"></div>
+        <div class="shadow-top"></div>
+        <div class="shadow-left"></div>
+        <div class="shadow-right"></div>
+        <div class="shadow-bottom-left"></div>
+        <div class="shadow-bottom"></div>
+        <div class="shadow-bottom-right"></div>
+    </div>
+</div>
+</body>
+</html>

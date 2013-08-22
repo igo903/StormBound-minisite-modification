@@ -1,0 +1,12 @@
+.l-msg-mainlist .message__new-message-bar {
+	height: 26px;
+}
+.message__list {
+	top: 210px;
+}
+.user-profile .user-profile__field .user-profile__label {
+	width: 400px;
+}
+.do-search {
+	height: 25px;
+}

@@ -1,0 +1,449 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<!-- Meta Tag -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Forum</title>
+	<!-- External CSS -->
+	<link href="css/base.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/modules.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/layout.css" type="text/css" rel="stylesheet" media="screen" />
+	
+	<!--[if IE 7]>
+	<link href="css/screen-ie7.css" type="text/css" rel="stylesheet" media="screen" />
+	<![endif]-->
+	
+	<!-- External Javascript -->
+	<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="js/jquery.dateFormat-1.0.js" type="text/javascript"></script>
+	<script src="js/jquery.jqtransform.js" type="text/javascript"></script>
+	<script src="js/scripts.js" type="text/javascript"></script>
+    
+    <!-- skin -->
+    <link href="css/minisite5/modules.css" type="text/css" rel="stylesheet" media="screen" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/minisite5/PIE_IE678.js"></script>
+    <![endif]-->
+    <!--[if IE 9]>
+    <script type="text/javascript" src="js/minisite5/PIE.js"></script>
+    <![endif]-->
+    <script src="js/minisite5/scripts.js" type="text/javascript"></script>
+    
+</head>
+
+<body>
+<div class="l-header clearfix">
+	<div class="content">
+		<div class="panel float-right">
+            <ul class="logged-in float-left">
+                <li class="friends">
+                    <a href="javascript:;" class="icon">Friends</a>
+                    <div class="header-popup">
+                        <div class="header-popup__head">
+                            <div class="arrow"></div>
+                            <div class="right"><div class="middle">
+                                <strong>FRIEND REQUESTS</strong>
+                            </div></div>
+                        </div>
+                        <!--End .header-popup__head-->
+                        <div class="header-popup__content">
+                            <div class="right">
+                                <div class="middle">
+                                    <div class="friend-request clearfix">
+                                        <a href="profile-loggedin.html" class="friend-request__photo float-left js-show-hover"><img src="i/popup-photo.png" alt="Username" /></a>
+                                        <div class="friend-request__content">
+                                            <a href="profile-loggedin.html" class="username js-show-hover">Username</a>
+                                            <span class="user-type">Registered User</span>
+                                            <a href="javascript:;" class="button">IGNORE</a>
+                                            <a href="javascript:;" class="button">CONFIRM</a>
+                                        </div>
+                                        <!--End .friend-request__content-->
+                                    </div>
+                                    <!--End .friend-request-->
+                                    <div class="friend-request clearfix">
+                                        <a href="profile-loggedin.html" class="friend-request__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                                        <div class="friend-request__content">
+                                            <a href="profile-loggedin.html" class="username">Username</a>
+                                            <span class="user-type">Registered User</span>
+                                            <a href="javascript:;" class="button">IGNORE</a>
+                                            <a href="javascript:;" class="button">CONFIRM</a>
+                                        </div>
+                                        <!--End .friend-request__content-->
+                                    </div>
+                                    <!--End .friend-request-->
+                                    <div class="friend-request clearfix">
+                                        <a href="profile-loggedin.html" class="friend-request__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                                        <div class="friend-request__content">
+                                            <a href="profile-loggedin.html" class="username">Username</a>
+                                            <span class="user-type">Registered User</span>
+                                            <a href="javascript:;" class="button">IGNORE</a>
+                                            <a href="javascript:;" class="button">CONFIRM</a>
+                                        </div>
+                                        <!--End .friend-request__content-->
+                                    </div>
+                                    <!--End .friend-request-->
+                                </div>
+                                <!--End .middle-->
+                            </div>
+                            <!--End .right-->
+                        </div>
+                        <!--End .header-popup__foot-->
+                        <div class="header-popup__foot">
+                            <div class="right"><div class="middle">
+                                <a href="javascript:;">View All</a>
+                            </div></div>
+                        </div>
+                        <!--End .header-popup__foot-->
+                    </div>
+                    <!--End .header-popup-->
+                </li>
+                <li class="messages">
+                    <a href="javascript:;" class="icon">Messages</a>
+                    <span class="count">4</span>
+                    <div class="header-popup">
+                        <div class="header-popup__head">
+                            <div class="arrow"></div>
+                            <div class="right"><div class="middle">
+                                <strong>MESSAGES</strong>
+                            </div></div>
+                        </div>
+                        <!--End .header-popup__head-->
+                        <div class="header-popup__content">
+                            <div class="right">
+                                <div class="middle">
+                                    <div class="message clearfix">
+                                        <a href="profile-loggedin.html" class="message__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                                        <div class="message__content">
+                                            <a href="profile-loggedin.html" class="username">Username</a>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoe</p>
+                                        </div>
+                                        <!--End .message__content-->
+                                    </div>
+                                    <!--End .message-->
+                                    <div class="message clearfix">
+                                        <a href="profile-loggedin.html" class="message__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                                        <div class="message__content">
+                                            <a href="profile-loggedin.html" class="username">Username</a>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoe</p>
+                                        </div>
+                                        <!--End .message__content-->
+                                    </div>
+                                    <!--End .message-->
+                                    <div class="message clearfix">
+                                        <a href="profile-loggedin.html" class="message__photo float-left"><img src="i/popup-photo.png" alt="Username" /></a>
+                                        <div class="message__content">
+                                            <a href="profile-loggedin.html" class="username">Username</a>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoe</p>
+                                        </div>
+                                        <!--End .message__content-->
+                                    </div>
+                                    <!--End .message-->
+                                </div>
+                                <!--End .middle-->
+                            </div>
+                            <!--End .right-->
+                        </div>
+                        <!--End .header-popup__foot-->
+                        <div class="header-popup__foot">
+                            <div class="right"><div class="middle">
+                                <a href="javascript:;">View All</a>
+                            </div></div>
+                        </div>
+                        <!--End .header-popup__foot-->
+                    </div>
+                    <!--End .header-popup-->
+                </li>
+                <li class="notifications">
+                    <a href="javascript:;" class="icon">Notifications</a>
+                    <span class="count">34</span>
+                    <div class="header-popup">
+                        <div class="header-popup__head">
+                            <div class="arrow"></div>
+                            <div class="right"><div class="middle">
+                                <strong>NOTIFICATIONS</strong>
+                            </div></div>
+                        </div>
+                        <!--End .header-popup__head-->
+                        <div class="header-popup__content">
+                            <div class="right">
+                                <div class="middle">
+                                    <div class="notification clearfix">
+                                        <a href="profile-loggedin.html" class="notification__photo float-left"><img src="i/popup-photo-small.png" alt="Username" /></a>
+                                        <div class="notification__content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoe</p>
+                                        </div>
+                                        <!--End .notification__content-->
+                                    </div>
+                                    <!--End .notification-->
+                                    <div class="notification clearfix">
+                                        <a href="profile-loggedin.html" class="notification__photo float-left"><img src="i/popup-photo-small.png" alt="Username" /></a>
+                                        <div class="notification__content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoe</p>
+                                        </div>
+                                        <!--End .notification__content-->
+                                    </div>
+                                    <!--End .notification-->
+                                    <div class="notification clearfix">
+                                        <a href="profile-loggedin.html" class="notification__photo float-left"><img src="i/popup-photo-small.png" alt="Username" /></a>
+                                        <div class="notification__content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoe</p>
+                                        </div>
+                                        <!--End .notification__content-->
+                                    </div>
+                                    <!--End .notification-->
+                                    <div class="notification clearfix">
+                                        <a href="profile-loggedin.html" class="notification__photo float-left"><img src="i/popup-photo-small.png" alt="Username" /></a>
+                                        <div class="notification__content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoe</p>
+                                        </div>
+                                        <!--End .notification__content-->
+                                    </div>
+                                    <!--End .notification-->
+                                </div>
+                                <!--End .middle-->
+                            </div>
+                            <!--End .right-->
+                        </div>
+                        <!--End .header-popup__foot-->
+                        <div class="header-popup__foot">
+                            <div class="right"><div class="middle">
+                                <a href="javascript:;">View All</a>
+                            </div></div>
+                        </div>
+                        <!--End .header-popup__foot-->
+                    </div>
+                    <!--End .header-popup-->
+                </li>
+                <li class="welcome"><span>Welcome</span> <a href="profile-loggedin.html">Username</a> ( <a href="home.html" class="logout">Logout</a> )</li>
+            </ul>
+            <div class="search-box">
+                <a href="javascript:;">GO</a>
+                <input type="text" value="Search Members" />
+            </div>
+            <!--End .search-box-->
+        </div>
+		<!--End .panel-->
+		<div class="float-left"><img src="i/minisite5/verigames-logo.png" alt="VERIGAMES" /></div>
+		<ul class="social-links float-left">
+        <li><a href="javascript:;" class="social-links_fb">facebook</a></li>
+        <li><a href="javascript:;" class="social-links_tw">twitter</a></li>
+        <li><a href="javascript:;" class="social-links_plus">+</a></li>
+    </ul>
+<!--End .social-links-->
+	</div>
+	<!--End .content-->
+</div>
+<!--End .l-header-->
+<div class="l-mainContent clearfix">
+    <div class="l-navigationHeader l-navigationHeader--logged-in clearfix">
+        <ul class="float-right">
+            <li><a href="home-loggedin.html" class="home"><i></i>Home</a></li>
+            <li><a href="play-loggedin.html" class="play"><i></i>Play</a></li>
+            <li><a href="newsPage-loggedin.html" class="news"><i></i>News</a></li>
+            <li><a href="profile-loggedin.html" class="profile"><i></i>Profile</a></li>
+            <li><a href="javascript:;" class="achievements"><i></i>Achievements</a></li>
+            <li><a href="quests-loggedin.html" class="quests"><i></i>Quests</a></li>
+            <li><a href="forums-admin-main.html" class="forum is-active is-forum-active"><i></i>Forum</a></li>
+        </ul>
+    	<div class="title"><img src="i/minisite5/storm-bound-logo.png" alt="STORM BOUND" /></div>
+
+    </div>
+    <!-- End .l-navigationHeader -->
+    
+    <div class="forumHeader clearfix">
+        <div class="search-forum float-left  js-z-index-fix">
+            <input type="text" class="search-text float-left" value="Search in forum..." />
+            <a href="forums-admin-search-results.html" class="icon-forum-search float-left"></a> 
+        </div>
+        <a href="javascript:;" class="button button--advanced float-left">ADVANCED</a>
+            
+        <a class="button button--settings float-right" href="javascript:;">SETTINGS</a>
+        <a class="button button--my-post float-right" href="forums-admin-my-post.html">MY POST</a>
+        <a class="button button-my-watches float-right" href="forums-admin-my-watches-thread.html">MY WATCHES</a>
+        <a class="button button--pipeline float-right" href="forums-admin-pipeline.html">PIPELINE</a>
+    </div>
+    <!-- End forumHeader -->
+    
+    <div class="content content--forum content--forum__create-cat">
+        <div class="box box--forum-page">
+			<div class="box__title clearfix">
+            	<strong class="float-left"><a class="breadcrumb" href="forums-admin-main.html">FORUM CENTER</a><a class="breadcrumb-sub" href="forums-admin-forum.html"><i></i>FORUM PAGE</a><a class="breadcrumb-sub" href="forums-admin-thread.html"><i></i>THREAD TITLE</a><span><i></i>REPLY</span></strong>
+            	<a class="button float-right forum-admin-del-thread" href="javascript:;">DELETE</a>
+                <a class="button float-right forum-admin-lock-cat js-forum-admin-lock-thread" href="javascript:;"></a>
+                <a class="button float-right forum-watch-thread-btn js-forum-watch-thread-btn" href="javascript:;">WATCH</a>
+            </div>
+            <!--End .box__title-->
+            <div class="forum-validation-error is-hidden clearfix"><div><div><strong>ERROR:</strong> Red label indicates required informations</div></div></div>
+            <div class="forum-thread-post-row">
+            	<div class="forum-thread-post-row__author">
+                	<img src="i/forum-author-img.gif" width="80" height="74" alt="" />
+                    <p><a href="javascript:;">MyHandle</a></p>
+                    <p>1780 posts</p>
+                </div>
+                
+                <div class="forum-thread-post-row__content">
+            		<p class="new-post-hint">Allowed tags: &lt;annot&gt;, &lt;a&gt;, &lt;abbr&gt;, &lt;acronym&gt;, &lt;blockquote&gt;, &lt;b&gt;, &lt;br&gt;, &lt;em&gt;, &lt;font&gt;, &lt;i&gt;, &lt;li&gt;, &lt;ol&gt;, &lt;p&gt;, &lt;pre&gt;, &lt;s&gt;, &lt;strike&gt;, &lt;sub&gt;, &lt;sup&gt;, &lt;strong&gt;, &lt;table&gt;, &lt;td&gt;, &lt;tr&gt;, &lt;tt&gt;, &lt;u&gt;, &lt;ul&gt;. Allowed attributes: a:href; img:src,height,width.</p>
+                    <p class="new-post-field-label">SUBJECT</p>
+                    <input type="text" class="forum-thread-post-row__title"  value=""/>
+                    <p class="new-post-field-label">MESSAGE</p>
+                	<textarea cols="" rows="" class="forum-thread-post-row__message forum-thread-post-row__message-impact"></textarea>
+                    
+                    <div class="forum-thread__attachments box">
+                        <div class="title--bar clearfix">
+                            <strong class="float-left">ATTACHMENTS</strong> 
+                            <a class="button float-right js-forum-upload-attachments" href="javascript:;">UPLOAD</a>
+                        </div>
+                        <!--End title bar-->
+                        <div class="box--forum-thread__attachment-item clearfix">
+                            <p class="box--forum-thread__attachment-filename float-left">No file chosen</p>
+                            <a href="javascript:;" class="button float-right js-forum-choose-file">CHOOSE FILE</a>
+                            <a href="javascript:;" class="button float-right forum-delete-file js-forum-delete-file">DELETE</a>
+                            <input type="file" value="" class="attachment-upload" size="1" onchange="uploadForumFileTrigger(this)"/>
+                        </div>
+                    </div>
+                    <!--End box forum-thread__attachments-->
+                    <div class="forum-more-attachment-button-holder"><a href="javascript:;" class="js-forum-add-more-attachment">ATTACH MORE FILES</a></div>
+                    <div class="forum-thread-post-row__button-holder clearfix">
+                        <a href="javascript:;" class="button float-right js-forum-admin-post">POST</a>
+                        <a href="forums-admin-new-thread-preview.html" class="button float-right">PREVIEW</a>
+                        <a href="javascript:;" class="button float-right js-cancel-to-prev-page">CANCEL</a>
+                    </div>
+            	</div>
+            </div>
+        </div>
+        <!--End .box-->
+        <div class="box box--forum-page box--forum__original-post">
+			<div class="box__title"><strong>ORIGINAL POST</strong></div>
+            <!--End .box__title-->
+            <div class="forum-thread__status-bar clearfix">
+				<span class="forum-thread__status-bar-time float-left">Dec 13, 2012 at 7:54 AM EET</span>
+            </div>
+            <div class="forum-thread-post-row forum-thread-post-row__display">
+            	<div class="forum-thread-post-row__author">
+                	<img src="i/forum-author-img.gif" width="80" height="74" alt="" />
+                    <p><a href="javascript:;">Username</a></p>
+                    <p>1780 posts</p>
+                </div>
+                <p class="forum-thread-post-row__post-attachment"><label>Attachment: </label> <span class="forum-attachment-item"><a href="javascript:;">Picture_Images.jpg</a><span>Size: 987 KB</span></span></p>
+                <div class="forum-thread-post-row__content">
+                    <div class="forum-thread-post-row__post-body">
+                    	<div class="post-quote">
+                        	<label class="post-quote__label">Quote:</label>
+                            <div class="post-quote__content">
+                            	<p class="quote-info">Original Posted By <a href="javascript:;">Username</a></p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit id libero cursus mattis sed sed orci. Suspendisse in 
+ipsum tempus risus sollicitudin molestie quis at magna.</p>
+                            </div>
+                        </div>
+                    	<p>Consectetur adipiscing elit. Duis sed velit id libero cursus mattis sed sed orci. Suspendisse in ipsum tempus risus sollicitudin molestie quis at magna.</p>
+					</div>
+                </div>          
+            </div>
+        </div>
+        <!--End .box-->
+    </div>
+    <!--End .content-->
+</div>
+<!-- End .l-mainContent -->
+<div class="l-footer">
+	<div class="content">
+		<div class="footer-bottom clearfix">
+<span class="footer-decoration"></span>
+			<div class="footer-bottom-left float-left">
+				<p class="title"><img src="i/minisite5/storm-bound-logo.png" alt="" /></p>
+				<p>Our mission is to lorem ipsum dolor sit amet conseqtetur adispicing elit laguen ad fdioa ngofaor</p>
+				<span>&copy;2012 CSVF, Inc.</span>
+			</div>
+            <!--End .footer-bottom-left-->
+			<div class="footer-bottom-right float-right">
+				<ul class="sitemap-links float-right">
+					<li class="sitemap-links_first"><a href="home-loggedin.html">Home</a></li>
+                    <li><a href="javascript:;">Privacy Policy </a></li>
+					<li><a href="javascript:;">Terms and Conditions</a></li>
+					<li><a href="javascript:;">About Us</a></li>
+				</ul>
+				<ul class="social-links float-right">
+					<li><a href="javascript:;" class="social-links_fb"><span>facebook</span></a></li>
+					<li><a href="javascript:;" class="social-links_tw">twitter</a></li>
+					<li><a href="javascript:;" class="social-links_plus">+</a></li>
+				</ul>
+			</div>
+            <!--End .footer-bottom-right-->
+		</div>
+		<!--End .footer-bottom-->
+	</div>
+    <!--End .content -->
+</div>
+<!--End .l-footer-->
+<div class="alpha"></div>
+<!--End .alpha-->
+<div class="popup popup--uploading-forum-attachment">
+	<div class="popup__title popup__title-left">
+    	<div class="popup__title-right">
+    		<div class="popup__title-mid">
+    			<strong>UPLOADING ATTACHMENTS</strong>
+    			<a href="javascript:;" class="close-btn">X</a>
+    		</div>
+    	</div>
+    </div>
+    <!--End .popup__title-->
+    <div class="popup__content popup__content-left">
+		<div class="popup__content-right">
+			<div class="popup__content-mid">
+				<div class="upload-process">
+					<p class="clearfix">
+                    	<span class="float-left">Please wait a moment</span>
+                        <span class="uploading__progress-number float-right"><span></span>%</span>
+                    </p>
+                    <div class="uploading__progress-bar">
+                        <div class="uploading__progress"></div>
+                    </div>
+                </div>
+                <!--End .upload-process-->
+			</div>
+		</div>
+    </div>
+    <!--End .popup__content-->
+	<div class="popup__footer popup__footer-left">
+		<div class="popup__footer-right">
+			<div class="popup__footer-mid"></div>
+		</div>
+	</div>
+</div>
+<!--End .popup uploading-->
+<div class="popup popup--forum-error">
+	<div class="popup__title popup__title-left">
+    	<div class="popup__title-right">
+    		<div class="popup__title-mid">
+    			<strong>ERROR NOTIFICATION</strong>
+    			<a href="javascript:;" class="close-btn">X</a>
+    		</div>
+    	</div>
+    </div>
+    <!--End .popup__title-->
+    <div class="popup__content popup__content-left">
+		<div class="popup__content-right">
+			<div class="popup__content-mid">
+				<div class="error-content">
+					<p>Error messages going here, lorem ipsum dolor sit amet :</p>
+                    <ul>
+                    	<li>Lorem Ipsum Dolor</li>
+                        <li>Sit amet adispicus totem</li>
+                    </ul>
+                    <div class="error-confirm-btn-holder clearfix"><a class="button float-right close-btn">OK</a></div>
+                </div>
+                <!--End .error-content-->
+			</div>
+		</div>
+    </div>
+    <!--End .popup__content-->
+	<div class="popup__footer popup__footer-left">
+		<div class="popup__footer-right">
+			<div class="popup__footer-mid"></div>
+		</div>
+	</div>
+</div>
+<!--End .popup forum error-->
+</body>
+</html>
+

@@ -1,0 +1,588 @@
+/* Layout Components */
+
+/* float clearing for IE7 */
+*+html .clearfix {
+	min-height: 1%;
+}
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	font-size: 0;
+}
+
+.float-left { float: left; }
+.float-right { float: right; }
+
+.l-header .logged-in .count, .sitemap-list a, .sitemap-list a:visited { font-size: 11px; }
+.l-header .btn, .l-header .search-box input, .l-header .logged-in .welcome { font-size: 14px; }
+
+/* header */
+.l-header {
+	background:url(..//i/minisite5/header-bg.png) repeat-x 0 0;
+}
+	.l-header .content {
+		width: 960px;
+		margin: 0 auto;
+		position: relative;
+		z-index: 1; 
+	}
+			/*.l-header .btn {
+				display: block;
+				background: #444444;
+				margin-right: 3px;
+				color: #ffffff;
+				font-family: 'BebasRegular';
+				padding: 20px 21px 23px 23px;
+				text-decoration: none;
+			}
+			.l-header .btn:hover { background-color: #575757; }
+			.l-header .btn--fbSignIn {
+				background: #444444 url(../i/fb-icon.png) 19px 18px no-repeat;
+				padding-left: 44px;
+			}
+			.l-header .btn--reg,
+			.l-header .btn--reg:hover {
+				background: #ffcc00;
+				margin-right: 10px;
+				color: #333333;
+			}*/
+			.btn{
+				height: 37px;
+				line-height: 37px;
+				font-family: 'BebasRegular';
+				display: inline-block;
+				text-decoration:none;
+				color: #fffefe;
+				margin-top:11px;
+				text-align:center;
+				margin-left:3px;
+				text-shadow:0 1px 0 #125652;
+				}
+			.btn-signIn,
+			.btn-signIn:visited{
+				background: 0 -112px no-repeat;
+				width: 85px;
+				}
+			.btn-signIn:hover{
+				background-position:0 -149px;
+				}
+			.btn-signIn:acitve{
+				background-position:0 -186px;
+			}
+			.btn--fbSignIn,
+			.btn--fbSignIn:visited{
+				background: 0 0 no-repeat;
+				width: 89px;
+				padding-left:20px;
+				}
+			.btn--fbSignIn:hover{
+				background-position:0 -37px;
+				}
+			.btn--fbSignIn:active{
+				background-position:0 -74px;
+				}
+			.btn:hover{
+				text-decoration:none;
+				color:#2ce0d5;
+				}
+			.btn:active{
+				color:#0a2725;
+				/* Text Shadow */
+				text-shadow:#75c3be 0 1px 0;
+				}
+			.btn--reg,
+			.btn--reg:visited{
+				background: 0 -501px no-repeat;
+				width: 99px;
+				text-shadow:0 1px 0 #fae1ac;
+				color:#333333;
+				margin-right:10px;
+				}
+			.btn--reg:hover{
+				color:#0a2725;
+				background-position:0 -538px;
+				}
+			.btn--reg:active{
+				background-position:0 -575px;
+				color:#fffffe;
+				text-shadow:#b27c0c 0 1px 0;
+				}
+			.l-header .search-box {
+				position: relative;
+				background: #ffffff;
+				display: inline-block;
+				margin-top: 10px;
+				padding-right: 42px;
+				height: 36px;
+			}
+			.l-header .search-box { border: 1px solid #cccccc; }
+				.l-header .search-box a {
+					position: absolute;
+					top: 0;
+					right: 0;
+					display: block;
+					background: #ffcc00 0 -387px no-repeat;
+					width: 42px;
+					height: 36px;
+					text-indent: -9999px;
+					direction: ltr;
+					overflow: hidden;
+				}
+				.l-header .search-box input {
+					background: none;
+					border: none;
+					width: 170px;
+					margin: 10px 14px 0;
+					color: #666666;
+					font-family: Arial, Helvetica, sans-serif;
+				}
+		.l-header .logged-in {
+			margin-right: 19px;
+			height: 56px;
+		}
+			.l-header .logged-in li {
+				float: left;
+				position: relative;
+			}
+			.l-header .logged-in .friends { margin-right: 15px; }
+			.l-header .logged-in .messages { margin-right: 17px; }
+			.l-header .logged-in .notifications { margin-right: 31px; }
+					.l-header .logged-in .icon {
+						display: block;
+						background-repeat: no-repeat;
+						position:relative;
+						direction: ltr;
+						text-indent: -9999px;
+						overflow: hidden;
+					}
+					.l-header .logged-in .friends .icon {
+						background-position: 0 -231px;
+						width:21px;
+						height:29px;
+						top:14px;
+					}
+					.l-header .logged-in .messages .icon {
+						background-position: 0 -428px;
+						width: 33px;
+						height:33px;
+						top:14px;
+					}
+					.l-header .logged-in .notifications .icon {
+						background-position: 0 -461px;
+						width: 28px;
+						height:28px;
+						top:14px;
+					}
+				.l-header .logged-in .count {
+					position: absolute;
+					top: 10px;
+					right: -7px;
+					display: block;
+					background: left -696px no-repeat;
+					width: 15px;
+					height: 15px;
+					color: #fffffe;
+					text-align: center;
+					line-height: 15px;
+					overflow: hidden;
+				}
+			.l-header .logged-in .header-popup {
+				left: 50%;
+				top: 42px;
+				width: 276px;
+				margin-left: -138px;
+			}
+			.l-header .logged-in .welcome {
+				color: #ffcc00;
+				line-height: 56px;
+			}
+				.l-header .logged-in .welcome span {
+					color: #999999;
+					font-weight: bold;
+				}
+				.l-header .logged-in .welcome a {
+					color: #ffcc00;
+					font-weight: bold;
+					text-decoration: none;
+				}
+				.l-header .logged-in .welcome a:hover { text-decoration: underline; }
+				.l-header .logged-in .welcome .logout { font-weight: normal; }
+	.l-header .social-links { margin: 19px 0 0 40px; }
+		.l-header .social-links li {
+			float: left;
+			margin-right: 21px;
+		}
+			.l-header .social-links li .social-links_fb,
+			.l-header .social-links li .social-links_tw,
+			.l-header .social-links li .social-links_plus {
+				background-repeat: no-repeat;
+				display: block;
+				width: 18px;
+				height: 18px;
+				direction: ltr;
+				text-indent: -9999px;
+				overflow: hidden;
+			}
+			.l-header .social-links li .social-links_tw{
+				height: 13px;
+				position:relative;
+				top:3px;
+				}
+			.l-header .social-links li .social-links_plus{
+				height: 11px;
+				position:relative;
+				top:4px;
+				}
+			.l-header .social-links li .social-links_fb { background-position: 5px -296px; }
+			.l-header .social-links li .social-links_fb:hover { background-position: 5px -314px; }
+			.l-header .social-links li .social-links_tw { background-position: 0 -334px; }
+			.l-header .social-links li .social-links_tw:hover { background-position: 0 -348px; }
+			.l-header .social-links li .social-links_plus { background-position: 4px -363px; }
+			.l-header .social-links li .social-links_plus:hover { background-position: 4px -375px; }
+
+/* main content */
+.l-mainContent {
+	width: 960px;
+	margin: 0 auto 118px;
+}
+.l-mainContent--login { margin-bottom: 49px; }
+
+/* navigation header */
+.l-navigationHeader {
+	border: 1px solid #dfdfdf;
+	padding-top: 7px;
+}
+.l-navigationHeader--logged-in { margin-bottom: 29px; }
+	.l-navigationHeader .title {
+		display: block;
+		height: 124px;
+		color: #333333;
+		font-family: 'Arial Black';
+		font-size: 51px;
+	}
+	.l-navigationHeader .title {
+		border-bottom: 4px solid #8cb058;
+		padding: 20px 0 0 54px;
+	}
+		.l-navigationHeader .title span {
+			display: block;
+			margin-top: -2px;
+			color: #669900;
+			font-family: 'BebasRegular';
+			font-size: 28.5px;
+			font-weight: normal;
+		}
+	.l-navigationHeader ul { border-bottom: 4px solid #8cb058; }
+		.l-navigationHeader ul li {
+			float: left;
+			height: 144px;
+		}
+	
+			
+		.l-navigationHeader ul li a{
+				display: block;
+				color: #666666;
+				min-width: 51px;
+				min-height: 62px;
+			 text-align:center;
+				padding: 82px 13px 0;
+			 position:relative;
+				font-family: 'BebasRegular';
+				font-size: 13.68px;
+				text-align: center;
+				text-decoration: none;
+    } 
+    .l-navigationHeader ul li a:hover,
+    .l-navigationHeader ul li.is-active a{
+				background-color: #8cb058;
+				color: #ffffff;
+				 position:relative;
+    } 
+			
+		.l-navigationHeader ul li a i,
+    .l-navigationHeader ul li a:hover i,
+    .l-navigationHeader ul li.is-active a i{
+         background-color:transparent;
+				 background-image:url(../i/minisite5/main-menu-css-sprite.png);
+				 display:inline-block;
+				 position:absolute;
+				 text-align:center;
+				 background-repeat:no-repeat;
+				 margin:0 auto;
+    }
+			
+			/*home*/
+			.l-navigationHeader ul li .home i{
+			background-position:center -668px;
+			width:83px;
+			height:48px;
+			top:32px;
+			left:14px;
+    }
+    .l-navigationHeader ul li .home:hover i{
+			background-position:center -716px;
+    }
+    .l-navigationHeader ul li .is-home-active i,
+		 .l-navigationHeader ul li .is-home-active:hover i{
+			background-position:center -764px;
+    }
+		
+		/*play*/
+    .l-navigationHeader ul li .play i{
+			background-position:center -323px;
+			height:58px;
+			width:83px;
+			top:26px;
+			left:9px;
+    }
+    .l-navigationHeader ul li .play:hover i{
+			background-position:center -382px;
+    }
+    .l-navigationHeader ul li .is-play-active i,
+		 .l-navigationHeader ul li .is-play-active:hover i{
+			background-position:center -440px;
+    }
+		
+		/*news*/
+    .l-navigationHeader ul li .news i{
+			background-position:center -500px;
+			height:56px;
+			width:83px;
+			top:26px;
+			left:13px;
+    }
+    .l-navigationHeader ul li .news:hover i{
+			background-position:center -556px;
+    }
+    .l-navigationHeader ul li .is-news-active i,
+		.l-navigationHeader ul li .is-news-active:hover i{
+			background-position:center -612px;
+    }
+		
+		/*achievements*/
+    .l-navigationHeader ul li .achievements i{
+			background-position:0 -915px;
+			width:118px;
+			height:53px;
+			top:28px;
+			left:38px;
+    }
+    .l-navigationHeader ul li .achievements:hover i{
+			background-position:0 -968px;
+    }
+    .l-navigationHeader ul li .is-achievements-active i,
+		.l-navigationHeader ul li .is-achievements-active:hover i{
+			background-position:0 -1022px;
+    }
+		/*profile*/
+    .l-navigationHeader ul li .profile i{
+			background-position:0 -168px;
+			height:52px;
+			width:83px;
+			top:26px;
+			left:17px;
+    }
+    .l-navigationHeader ul li .profile:hover i{
+			background-position:0 -220px;
+    }
+    .l-navigationHeader ul li .is-profile-active i,
+		.l-navigationHeader ul li .is-profile-active:hover i{
+			background-position:0 -273px;
+    }
+		/*quests*/
+    .l-navigationHeader ul li .quests i{
+			background-position:0 0;
+			height:56px;
+			top:33px;
+			left:23px;
+			width:83px;
+    }
+    .l-navigationHeader ul li .quests:hover i{
+			background-position:0 -49px;
+			top:24px;
+    }
+    .l-navigationHeader ul li .is-quests-active i,
+		.l-navigationHeader ul li .is-quests-active:hover i{
+			background-position:0 -108px;
+			top:25px;
+    }
+		
+		/*forum*/
+    .l-navigationHeader ul li .forum i{
+			background-position:0 -812px;
+			width:51px;
+			height:34px;
+			top:43px;
+			left:3px;
+    }
+    .l-navigationHeader ul li .forum:hover i{
+			background-position:0 -846px;
+    }
+    .l-navigationHeader ul li .is-forum-active i,
+		.l-navigationHeader ul li .is-forum-active:hover i{
+			background-position:0 -881px;
+    }
+
+
+/* home sidebar */
+.l-sidebar { width: 261px; }
+.l-sidebar--logged-in { width: 237px; }
+
+/* home content */
+.l-content {
+	width: 684px;
+	margin-left: 15px;
+}
+.l-content--logged-in {
+	width: 467px;
+	margin: 0 11px 0 8px;
+}
+.l-content--profile {
+	width: 714px;
+	margin: 0 9px 0 0;
+}
+.l-content--private-profile {
+	width: auto;
+	margin: 0;
+}
+
+/* layout in messages tab.*/
+.l-msg-sidelist {
+	border-right: 1px solid #e7e7e7;
+}
+.l-content .l-msg-sidelist {
+	width: 262px;
+	height: 800px;
+}
+.l-msg-mainlist {
+	position: absolute;
+	right: 0;
+	left: 263px;
+	bottom: 4px;
+	height: 796px;
+}
+/* footer */
+.l-footer {
+	color: #8f7237;
+	font-size: 12px;
+}
+	.l-footer .content {
+		width: 960px;
+		margin: 0 auto;
+		padding-top: 27px;
+		height:141px;
+		padding-bottom: 0px;
+	}
+		.footer-top {
+			padding-bottom: 28px;
+			border-bottom: 1px solid #b3b6bd;
+		}
+			.sitemap-list {
+				float: left;
+				margin-right: 77px;
+			}
+			.sitemap-list-last { margin: 0; }
+				.sitemap-list strong {
+					margin-bottom: 7px;
+					display: inline-block;
+				}
+					.sitemap-list li { margin-bottom: 6px; }
+						.sitemap-list a, .sitemap-list a:visited {
+							color: #666666;
+							text-decoration: none;
+						}
+						.sitemap-list a:hover { text-decoration: underline; }
+	.footer-bottom {
+		border-top: 1px solid #e4e7ed;
+		padding-top: 27px;
+	}
+			.sitemap-links { margin-top: 13px; }
+				.sitemap-links li {
+					float: left;
+					padding: 0 4px;
+					border-left: 1px solid #777f7e;
+				}
+				.sitemap-links .sitemap-links_first { border: none; }
+					.sitemap-links li a, .sitemap-links li a:visited {
+						display: block;
+						color: #cc9900;
+						text-decoration: none;
+					}
+					.sitemap-links li a:hover { text-decoration: underline; }
+			.footer-bottom .social-links  {
+				clear: right;
+				padding-top: 12px;
+			}
+				.footer-bottom .social-links li {
+					float: left;
+					background: 0 -612px no-repeat;
+					margin-left: 0;
+					width:42px;
+					height:42px;
+				}
+				.footer-bottom .social-links li.hover{
+					background-position:0 -654px;
+					}
+					.footer-bottom .social-links li a {
+						background-repeat: no-repeat;
+						position:relative;
+						margin:0 auto;
+						display: block;
+						direction: ltr;
+						text-indent: -9999px;
+						overflow: hidden;
+					}
+					.footer-bottom .social-links li .social-links_fb { background-position: left -262px;
+						width: 9px;
+						height: 19px;
+						top:12px;
+						}
+					.footer-bottom .social-links li .social-links_tw { background-position: left -281px; 
+						width: 18px;
+						height: 14px;
+						top:14px;
+						}
+					.footer-bottom .social-links li .social-links_plus { background-position: left -489px;
+						width: 11px;
+						height: 11px; 
+						top:15px;
+						}
+		.footer-bottom-left {
+			
+			position:relative;
+			z-index:1;
+		}
+			.footer-bottom-left p {
+				margin-bottom: 4px;
+				line-height: 14px;
+			}
+				.footer-bottom-left p.title {
+					font-size: 26.29px;
+					padding-bottom:15px;
+					line-height: 26.29px;
+				}
+					.footer-bottom-left p.title strong { font-family: 'Arial Black'; }
+			.footer-bottom-left span {
+				display: block;
+				margin-top: 16px;
+			}
+			
+.l-header .search-box a,
+.l-header .logged-in .friends .icon,
+.l-header .logged-in .messages .icon,
+.l-header .logged-in .notifications .icon,
+.l-header .social-links li .social-links_fb,
+.l-header .social-links li .social-links_tw,
+.l-header .social-links li .social-links_plus,		
+.btn--fbSignIn,
+.btn-signIn,
+.btn--reg,
+.footer-bottom .social-links li a,
+.footer-bottom .social-links li,
+.footer-bottom .social-links li.hover,
+.l-header .logged-in .count{
+	background-image:url(../i/minisite5/header-footer-css-sprite.png);
+	}
