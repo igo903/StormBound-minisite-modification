@@ -3781,6 +3781,7 @@ a{
 .l-header{
 	position:relative;
 	z-index:10;
+	height: 60px;
 	}
 	
 .header-popup{
@@ -3894,7 +3895,7 @@ a{
 					
 /* Footer */
 .l-footer{
-	padding:111px 0 0 0;
+	padding:105px 0 0 0;
 	border:0;
 	background-image:url(../../i/minisite5/footer.png);
 	background-repeat:repeat-x;
@@ -4040,10 +4041,12 @@ a{
 .tournamments-show-active .my-tournaments--active,
 .box__modal,
 .comments-section{
-	background:-webkit-gradient(linear, 0 0, 0 100%, from(rgba(27, 21, 10, 0.8)), to(rgba(83, 65, 30, 0.8)));
+	/*background:-webkit-gradient(linear, 0 0, 0 100%, from(rgba(27, 21, 10, 0.8)), to(rgba(83, 65, 30, 0.8)));
 	background:-moz-linear-gradient(rgba(27, 21, 10, 0.8) 0, rgba(83, 65, 30, 0.8) 100%);
 	background:linear-gradient(rgba(27, 21, 10, 0.8) 0, rgba(83, 65, 30, 0.8) 100%);
-	-pie-background:linear-gradient(rgba(27, 21, 10, 0.8) 0, rgba(83, 65, 30, 0.8) 100%);
+	-pie-background:linear-gradient(rgba(27, 21, 10, 0.8) 0, rgba(83, 65, 30, 0.8) 100%);*/
+	background: url(../../i/minisite5/canvas-bg.jpg);
+
 	}
 	
 .forum-thread-post-row__display .forum-thread-post-row__content,

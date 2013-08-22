@@ -217,6 +217,7 @@
 		}
 			.l-header .social-links li .social-links_fb,
 			.l-header .social-links li .social-links_tw,
+			.l-header .social-links li .social-links_youtube,
 			.l-header .social-links li .social-links_plus {
 				background-repeat: no-repeat;
 				display: block;
@@ -232,16 +233,24 @@
 				top:3px;
 				}
 			.l-header .social-links li .social-links_plus{
-				height: 11px;
+				height: 16px;
 				position:relative;
-				top:4px;
+				top:2px;
 				}
-			.l-header .social-links li .social-links_fb { background-position: 5px -296px; }
+			.l-header .social-links li .social-links_youtube{
+				height: 20px;
+				position:relative;
+				top:0px;
+				}
+
+			.l-header .social-links li .social-links_fb { background-position: 5px -716px; }
 			.l-header .social-links li .social-links_fb:hover { background-position: 5px -314px; }
-			.l-header .social-links li .social-links_tw { background-position: 0 -334px; }
+			.l-header .social-links li .social-links_tw { background-position: 0 -740px; }
 			.l-header .social-links li .social-links_tw:hover { background-position: 0 -348px; }
-			.l-header .social-links li .social-links_plus { background-position: 4px -363px; }
-			.l-header .social-links li .social-links_plus:hover { background-position: 4px -375px; }
+			.l-header .social-links li .social-links_plus { background-position: 4px -758px; }
+			.l-header .social-links li .social-links_plus:hover { background-position: 4px -778px; }
+			.l-header .social-links li .social-links_youtube { background-position: 0px -799px; }
+			.l-header .social-links li .social-links_youtube:hover { background-position: 0px -822px; }
 
 /* main content */
 .l-mainContent {
@@ -466,7 +475,7 @@
 }
 /* footer */
 .l-footer {
-	color: #8f7237;
+	color: #ffdb00;
 	font-size: 12px;
 }
 	.l-footer .content {
@@ -561,13 +570,13 @@
 			}
 				.footer-bottom-left p.title {
 					font-size: 26.29px;
-					padding-bottom:15px;
+					padding-bottom:5px;
 					line-height: 26.29px;
 				}
 					.footer-bottom-left p.title strong { font-family: 'Arial Black'; }
 			.footer-bottom-left span {
 				display: block;
-				margin-top: 16px;
+				margin-top: 12px;
 			}
 			
 .l-header .search-box a,
@@ -576,7 +585,8 @@
 .l-header .logged-in .notifications .icon,
 .l-header .social-links li .social-links_fb,
 .l-header .social-links li .social-links_tw,
-.l-header .social-links li .social-links_plus,		
+.l-header .social-links li .social-links_plus,
+.l-header .social-links li .social-links_youtube,
 .btn--fbSignIn,
 .btn-signIn,
 .btn--reg,
