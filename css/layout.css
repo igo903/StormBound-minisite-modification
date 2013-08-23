@@ -554,10 +554,15 @@
 						height: 14px;
 						top:14px;
 						}
-					.footer-bottom .social-links li .social-links_plus { background-position: left -844px;
-						width: 11px;
-						height: 11px; 
-						top:15px;
+					.footer-bottom .social-links li .social-links_plus { background-position: 2px -844px;
+						width: 18px;
+						height: 18px; 
+						top:12px;
+						}
+					.footer-bottom .social-links li .social-links_youtube { background-position: 2px -869px;
+						width: 18px;
+						height: 18px; 
+						top:12px;
 						}
 		.footer-bottom-left {
 			
