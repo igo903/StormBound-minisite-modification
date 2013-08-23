@@ -6403,18 +6403,3 @@ div .help-filter {
 	border-bottom: #494025 solid 1px;
 	background: #1d1c11;
 }
-/*modal pages*/
-.photo{
-	position: fixed;
-	left: 10%;
-	top: 20%;
-	z-index:1000;
-}
-.photo-content{
-	width: 1060px;
-	height: 400px;
-	background:#4e3d1c;
-}
-.photo-content {
-
-}
