@@ -1,5 +1,243 @@
 /* Modules Components */
 
+/* Base Components */
+html, 
+body, 
+.reset,
+.reset div, 
+
+.reset applet, 
+.reset object, 
+.reset iframe,
+.reset h1, 
+.reset h2, 
+.reset h3, 
+.reset h4, 
+.reset h5, 
+.reset h6, 
+.reset p, 
+.reset blockquote, 
+.reset pre,
+.reset a, 
+.reset abbr, 
+.reset acronym, 
+.reset address, 
+.reset big, 
+.reset cite, 
+.reset code,
+.reset del, 
+.reset dfn, 
+.reset em, 
+.reset font, 
+.reset img, 
+.reset ins, 
+.reset kbd, 
+.reset q, 
+.reset s, 
+.reset samp,
+.reset small, 
+.reset strike, 
+.reset strong, 
+.reset sub, 
+.reset sup, 
+.reset tt, 
+.reset var,
+.reset b, 
+.reset u, 
+.reset i, 
+.reset center,
+.reset dl, 
+.reset dt, 
+.reset dd, 
+.reset ol, 
+.reset ul, 
+.reset li,
+.reset fieldset, 
+.reset form, 
+.reset label, 
+.reset legend,
+.reset table, 
+.reset caption, 
+.reset tbody, 
+.reset tfoot, 
+.reset thead, 
+.reset tr, 
+.reset th, 
+.reset td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+}
+
+.switch-details--article,
+.switch-details--article p{
+	margin: 0;
+	padding: 0;
+	}
+	
+body {
+	line-height: 1;
+}
+.reset ol, 
+.reset ul {
+	list-style: none;
+}
+.reset blockquote, 
+.reset q {
+	quotes: none;
+}
+.reset textarea {
+	overflow: auto;
+}
+.reset input {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.reset blockquote:before, 
+.reset blockquote:after,
+.reset q:before, 
+.reset q:after {
+	content: '';
+	content: none;
+}
+
+
+/* remember to highlight inserts somehow! */
+.reset ins {
+	text-decoration: none;
+}
+.reset del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+.reset table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* font family and link */
+body{ font-family: Arial, Helvetica, sans-serif; }
+.reset a,
+.reset a:visited {
+	color: #0099ff;
+	text-decoration: none;
+}
+
+.reset .button{
+	color: #333333;
+	text-decoration: none;
+	}
+.panel a{
+	color:#ffdb00;
+	text-decoration: none;
+	}
+.panel .button{
+	color:#fffffe;
+	}
+.reset .button:hover,
+.panel .button:hover,
+.panel a:hover,
+.l-navigationHeader ul a,
+.l-navigationHeader ul a:visited,
+.l-navigationHeader ul a:hover,
+.box__home-switch .reset a:hover,
+.reset .btn{
+	text-decoration:none;
+	}
+.reset .btn{
+	color:#ffffff;
+	margin-top: 11px;
+margin-left: 3px;
+	}
+.reset .btn--reg{
+	color:#333;
+	margin-right: 10px;
+	}
+/* remember to define focus styles! */
+.reset :focus {
+	outline: 0;
+	quotes: none;
+}
+
+.reset a:hover,
+.panel a:hover
+{ text-decoration: underline; }
+
+.l-navigationHeader ul a,
+.l-navigationHeader ul a:visited{
+	color:#d5ab35;
+	}
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('../fonts/BEBAS___-webfont.eot');
+    src: url('../fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BEBAS___-webfont.woff') format('woff'),
+         url('../../fonts/BEBAS___-webfont.ttf') format('truetype'),
+         url('../../fonts/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.is-hidden { display:none; }
+
+.footer-bottom-right .reset .sitemap-links{
+	margin-top:13px;
+	}
+.reset .login__forgot{
+	margin-top:4px;
+	color:#ffdb00;
+	}
+	
+.login__register .reset a{
+	color:#ffdb00;
+	text-decoration:none;
+	}
+.reset .login__forgot:hover,
+.login__register .reset a:hover{
+	text-decoration:underline;
+	}
+	
+.l-sidebar--play-game .reset .user-stats__lv{
+	padding-top: 2px;
+	}
+.reset .user-stats__latest-awards{
+	padding: 2px 0 0 4px;
+	border-left: 1px solid #42424e;
+	}
+.reset .user-stats__latest-badges-label {
+border-right: 1px solid #000000;
+border-bottom: 1px solid #000000;
+}
+.reset .user-stats__latest-awards-label {
+border-left: 1px solid #42424e;
+border-bottom: 1px solid #000000;
+}
+.reset .user-stats__latest-badges {
+	padding: 2px 0 0 3px;
+	border-right: 1px solid #000000;
+}
+.reset .user-stats__latest-awards{
+	padding: 2px 0 0 4px;
+	border-left: 1px solid #42424e;
+	}
+.panel ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+.panel p{
+	margin:0;
+	padding:0;
+	}
+.reset .btn--fbSignIn, 
+.reset .btn--fbSignIn:visited {
+padding-left: 20px;
+}
+
+
+
 /* button - the yellow button */
 .button {
 	display: inline-block;
