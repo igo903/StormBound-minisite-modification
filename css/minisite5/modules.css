@@ -379,9 +379,9 @@ a{
 	background-color:transparent;
 	}
 .button:hover{
-	color:#23afa7;
+	color:#471f01;
 	/* Text shadow */
-	text-shadow:#16645f 1px 1px 1px;
+	text-shadow:#ffd69f 1px 1px 1px;
 	background-position:0 -32px;
 	background-color:transparent;
 	}
