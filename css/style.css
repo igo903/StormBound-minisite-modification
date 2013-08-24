@@ -100,10 +100,41 @@
 .photo-content .personal-details .content .meta p{
 	margin: 4px 6px;
 }
-.photo-content .personal-details .content .meta .rate a{
+.photo-content .rate a{
 	font-size: 11px;
 	font-weight: normal;
 	margin-left: 4px;
 }
-
-
+.photo-content .offset{
+	margin-left: 55px;
+}
+.arrowleft{
+	position: absolute;
+	top: 50%;
+	width: 34px;
+	height: 34px;
+	margin-top: -20px;
+	margin-left: 10px;
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+	background: #222;
+	left: auto;
+	background-image: url(../i/arrow-left.png);
+	background-position: 
+}
+.arrowright{
+	position: absolute;
+	top: 50%;
+	width: 34px;
+	height: 34px;
+	margin-top: -20px;
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+	background: #222;
+	right: 15px;
+	left: 64%;
+	background-image: url(../i/arrow-right.png);
+	background-position: 
+}
