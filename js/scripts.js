@@ -810,9 +810,9 @@ $(function() {
 	}
 
 	//popup photo carousel
-	jQuery('.popup--photo .picture').jcarousel({
-    	wrap: 'circular'
-    });
+	
+
+
 	
 	// post new feed
 	$('.js-post-feed, .js-post-feed-home').bind('click', function() {
