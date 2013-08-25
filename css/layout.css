@@ -12,7 +12,6 @@
 	visibility: hidden;
 	font-size: 0;
 }
-
 .float-left { float: left; }
 .float-right { float: right; }
 
@@ -506,7 +505,7 @@
 						.sitemap-list a:hover { text-decoration: underline; }
 	.footer-bottom {
 		border-top: 1px solid #e4e7ed;
-		padding-top: 27px;
+		padding-top: 15px;
 	}
 			.sitemap-links { margin-top: 13px; }
 				.sitemap-links li {
@@ -577,6 +576,10 @@
 					font-size: 26.29px;
 					padding-bottom:5px;
 					line-height: 26.29px;
+				}
+				.footer-bottom-left p.title img{
+					width: 200px;
+					height: 78px;
 				}
 					.footer-bottom-left p.title strong { font-family: 'Arial Black'; }
 			.footer-bottom-left span {
