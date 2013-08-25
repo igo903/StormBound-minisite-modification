@@ -2831,8 +2831,19 @@ div .box__faq__related li {
 		font-size: 13px;
 		font-weight:bold;
 	}
+	
+	.popup--photo .jcarousel-clip{
+		overflow: hidden;
+		width: 720px;
+		height: 480px;
+	}
+
 	.popup--photo .picture{
 		float: left;
+		width: 720px;
+		height: 480px;
+	}
+	.popup--photo .picture li{
 		width: 720px;
 		height: 480px;
 	}
