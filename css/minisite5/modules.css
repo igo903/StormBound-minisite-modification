@@ -3689,7 +3689,7 @@ a{
 	}
 
 	.modal--sign-in .js-sign-in{
-		width: 155px;
+		width: 145px;
 		}
 	
 	.modal--sign-in p{
@@ -4371,6 +4371,10 @@ a{
 .jqTransformSelectWrapper .jqTransformSelectOpen{
 	background-position:0 -769px;
 	}
+
+.l-content--home .button.comments{
+	width:125px;
+}
 
 .l-content--home .button{
 	background-position:0 -415px;
