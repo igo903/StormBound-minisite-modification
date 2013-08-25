@@ -738,6 +738,9 @@ $(function() {
 	$('.js-sign-in').bind('click', function(){
 		showPopup('.popup--login');
 	});
+	$('.js-popup-photo').bind('click',function(){
+		showPopup('.popup--photo');
+	});
 	$('.js-send-message').bind('click', function() {
 		showPopup('.popup--send-message');
 	});

@@ -2817,6 +2817,155 @@ div .box__faq__related li {
 .popup--login { width: 564px; }
 	.popup--login .login { padding: 18px 0 8px; }
 
+/*popup photo*/
+.popup--photo{
+	width: 1060px;
+	height: 480px;
+	background-color: #4E3D1C;
+	font-size: 13px;
+}
+
+	.popup--photo a{
+		text-decoration: none;
+		color: #0099ff;
+		font-size: 13px;
+		font-weight:bold;
+	}
+	.popup--photo .picture{
+		float: left;
+		width: 720px;
+		height: 480px;
+	}
+	.popup--photo .close-btn {
+		float: right;
+		top: 12px;
+		right: 26px;
+		background-image: url(../../i/minisite5/close-btn.png);
+		display: block;
+		background: url(../i/close-btn.png) left top no-repeat;
+		width: 16px;
+		height: 15px;
+		direction: ltr;
+		text-indent: -9999px;
+		overflow: hidden;
+	}
+	.popup--photo .side-message{
+		padding: 0 10px;
+	}
+	.popup--photo .close{
+		height: 56px;
+	}
+	.popup--photo .close a{
+		margin: 10px;
+	}
+	.popup--photo .info{
+		width: 100%;
+	}
+	.popup--photo .detail{
+		padding-left: 10px;
+	}
+	.popup--photo .handle-name{
+		float: left;
+	}
+	.popup--photo .detail-top{
+		width: 100%;
+	}
+	.popup--photo .detail-top p{
+		float: left;
+		margin: 0;
+		color: #fff;
+		font-weight:bold;
+	}
+	.popup--photo .detail-top span{
+		float: right;
+		color: #fff;
+	}
+	.popup--photo .detail-con{
+		width: 100%;
+		overflow: hidden;
+		color: #fff;
+		margin-top: 20px;
+	}
+	.popup--photo .personal-details{
+		background:#fff;
+	}
+		.popup--photo .personal-details .interest p{
+			margin: 0;
+		}
+		.popup--photo .personal-details .box{
+			border-bottom:  1px solid #dfdfdf;
+			padding: 7px 0 9px 10px;
+		}
+		.popup--photo .personal-details .comment{
+			padding-bottom: 20px;
+		}
+		.popup--photo .personal-details textarea{
+			width: 70%;
+			margin-left: 52px;
+		}
+		.popup--photo .personal-details .content{
+			margin: 0px 4px 0px 46px;
+		}
+		.popup--photo .personal-details .content .meta {
+			padding-right: 2px;
+			color: #848484;
+			overflow: hidden;
+		}
+		.popup--photo .personal-details .content .meta p{
+			margin: 4px 6px;
+		}
+		.popup--photo .rate a{
+			font-size: 11px;
+			font-weight: normal;
+			margin-left: 4px;
+		}
+	.popup--photo .offset{
+		margin-left: 55px;
+	}
+	.popup .arrowleft{
+		position: absolute;
+		top: 50%;
+		width: 34px;
+		height: 34px;
+		margin-top: -20px;
+		margin-left: 10px;
+		line-height: 30px;
+		color: #fff;
+		text-align: center;
+		background: #222;
+		left: auto;
+		background-image: url(../i/arrow-left.png);
+		background-position: 
+	}
+	.popup .arrowright{
+		position: absolute;
+		top: 50%;
+		width: 34px;
+		height: 34px;
+		margin-top: -20px;
+		line-height: 30px;
+		color: #fff;
+		text-align: center;
+		background: #222;
+		right: 15px;
+		left: 64%;
+		background-image: url(../i/arrow-right.png);
+		background-position: 
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* send message */
 .popup--send-message,
 .popup--add-friend { width: 564px; }
