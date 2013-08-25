@@ -824,6 +824,44 @@ a{
 		.box__navi-content{
 			min-height:100px;
 			}
+
+			.box__navi-content .button.view-more{
+				width: 145px;
+				margin: 10px 0px 10px 45px;
+			}
+
+			.box__navi-content .achivement-item{
+				border-bottom: #494025 solid 1px;
+				padding: 16px 8px 10px 6px;
+				}
+			.achivement-item img{
+				margin-top: 5px;
+			}
+
+			.achivement-item .content{
+				margin: 2px 0 0 47px;
+				}
+			.achivement-item .content .meta{
+				padding-right: 2px;
+				overflow: hidden;
+				text-transform: uppercase;
+				font-size: 14px;
+				font-weight: bold;
+				}
+			.achivement-item .content p{
+				margin: 9px 0;
+			}
+			.achivement-item .content .description{
+				font-size: 12px;
+				}
+			.achivement-item .content .date{
+				font-size: 11px;
+				font-style: italic;
+				}
+
+
+
+
 			
 			.box__navi-content td{
 				height:46px;
