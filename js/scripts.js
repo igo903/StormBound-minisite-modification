@@ -741,6 +741,10 @@ $(function() {
 	$('.js-popup-photo').bind('click',function(){
 		showPopup('.popup--photo');
 	});
+	$('.js-popup-video').bind('click',function(){
+		showPopup('.popup--video');
+	});
+
 	$('.js-send-message').bind('click', function() {
 		showPopup('.popup--send-message');
 	});
