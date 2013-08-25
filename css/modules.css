@@ -6613,23 +6613,27 @@ div .help-filter {
 }
 .smiling-face-icon{
 	background-image: url(../i/notificaitons-css-sprite.png);
+	background-repeat: no-repeat;
 	background-position: 0 0;
 	padding:6px 18px;
 }
 .desk-icon{
 	background-image: url(../i/notificaitons-css-sprite.png);
+	background-repeat: no-repeat;
 	background-position: 0 0;
 	padding:44px 18px;
 }
 .book-icon{
 	background-image: url(../i/notificaitons-css-sprite.png);
+	background-repeat: no-repeat;
 	background-position: 0 0;
 	padding:78px 18px;
 }
 .character-icon{
 	background-image: url(../i/notificaitons-css-sprite.png);
+/*	background-repeat: no-repeat;
 	background-position: 0 0;
-	padding:114px 18px;
+	padding:114px 18px;*/
 }
 .symbol-icon{
 	background-image: url(../i/notificaitons-css-sprite.png);
