@@ -6403,3 +6403,12 @@ div .help-filter {
 	border-bottom: #494025 solid 1px;
 	background: #1d1c11;
 }
+.bottom .comments-section{
+	background:#3f381f;
+}
+.box--natification-page{
+	padding: 0 0 39px 0;
+	background-image: url(../../i/minisite5/whole-content-box-footer.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
