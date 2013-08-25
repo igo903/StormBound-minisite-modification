@@ -2845,7 +2845,7 @@ div .box__faq__related li {
 		width: 34px;
 		height: 34px;
 		cursor: pointer;
-		background: rgba(0, 0, 0, 0) url(../i/minisite5/photo-video-css-sprite.png) no-repeat 0 0;
+		background:url(../i/minisite5/photo-video-css-sprite.png) no-repeat 0 0;
 		}
 	.jcarousel-prev-horizontal:hover{
 		background-position: 0px -35px;
@@ -2867,8 +2867,7 @@ div .box__faq__related li {
 		width: 34px;
 		height: 34px;
 		cursor: pointer;
-		background: red;
-		background: rgba(0, 0, 0, 0) url(../i/minisite5/photo-video-css-sprite.png) no-repeat 0 -105px;
+		background:url(../i/minisite5/photo-video-css-sprite.png) no-repeat 0 -105px;
 		}
 
 
