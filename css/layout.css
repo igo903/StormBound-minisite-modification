@@ -68,7 +68,7 @@
 			.btn-signIn:hover{
 				background-position:0 -149px;
 				}
-			.btn-signIn:acitve{
+			.btn-signIn:active{
 				background-position:0 -186px;
 			}
 			.btn--fbSignIn,

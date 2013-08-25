@@ -2982,7 +2982,6 @@ div .box__faq__related li {
 		background: #222;
 		left: auto;
 		background-image: url(../i/arrow-left.png);
-		background-position: 
 	}
 	.popup .arrowright{
 		position: absolute;
@@ -2997,22 +2996,7 @@ div .box__faq__related li {
 		right: 15px;
 		left: 64%;
 		background-image: url(../i/arrow-right.png);
-		background-position: 
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* send message */
 .popup--send-message,
 .popup--add-friend { width: 564px; }
@@ -6631,12 +6615,13 @@ div .help-filter {
 }
 .character-icon{
 	background-image: url(../i/notificaitons-css-sprite.png);
-/*	background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	background-position: 0 0;
-	padding:114px 18px;*/
+	padding:114px 18px;
 }
 .symbol-icon{
 	background-image: url(../i/notificaitons-css-sprite.png);
+	background-repeat: no-repeat;
 	background-position: 0 0;
 	padding:154px 18px;
 }
@@ -6799,7 +6784,6 @@ div .help-filter {
 	background: #222;
 	left: auto;
 	background-image: url(../i/arrow-left.png);
-	background-position: 
 }
 .arrowright{
 	position: absolute;
@@ -6814,5 +6798,4 @@ div .help-filter {
 	right: 15px;
 	left: 64%;
 	background-image: url(../i/arrow-right.png);
-	background-position: 
 }
