@@ -2838,6 +2838,43 @@ div .box__faq__related li {
 		height: 480px;
 	}
 
+	.jcarousel-prev-horizontal {
+		position: absolute;
+		top: 200px;
+		left: 5px;
+		width: 34px;
+		height: 34px;
+		cursor: pointer;
+		background: rgba(0, 0, 0, 0) url(../i/minisite5/photo-video-css-sprite.png) no-repeat 0 0;
+		}
+	.jcarousel-prev-horizontal:hover{
+		background-position: 0px -35px;
+	}
+	.jcarousel-prev-horizontal:active{
+		background-position: 0px -70px;
+	}
+	.jcarousel-next-horizontal:hover{
+		background-position: 0px -140px;
+	}
+	.jcarousel-next-horizontal:active{
+		background-position: 0px -175px;
+	}
+
+	.jcarousel-next-horizontal {
+		position: absolute;
+		top: 200px;
+		right: 5px;
+		width: 34px;
+		height: 34px;
+		cursor: pointer;
+		background: red;
+		background: rgba(0, 0, 0, 0) url(../i/minisite5/photo-video-css-sprite.png) no-repeat 0 -105px;
+		}
+
+
+
+
+
 	.popup--photo .picture{
 		float: left;
 		width: 720px;
