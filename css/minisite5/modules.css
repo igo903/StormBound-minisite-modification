@@ -3687,6 +3687,10 @@ a{
 	color:#ffffff;
 	text-align:center;
 	}
+
+	.modal--sign-in .js-sign-in{
+		width: 155px;
+		}
 	
 	.modal--sign-in p{
 		width:192px;
