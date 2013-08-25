@@ -6440,3 +6440,34 @@ div .help-filter {
 	background-position: 0 0;
 	padding:154px 18px;
 }
+/*home page*/
+.l-header .flat-btn:hover {
+	background-color: #575757;
+	text-decoration: none;
+}
+.l-header .flat-btn {
+	display: block;
+	background: #444;
+	margin-right: 3px;
+	color: #fff;
+	font-family: 'BebasRegular';
+	font-size: 14px;
+	padding: 20px 21px 19px 23px;
+	text-decoration: none;
+}
+.l-header .flat-btn--fbSignIn {
+	background: #444 url(./i/fb-icon.png) 19px 18px no-repeat;
+	padding-left: 44px;
+}
+.l-header .flat-btn--reg, .l-header .flat-btn--reg:hover {
+	background: #fc0;
+	margin-right: 10px;
+	color: #333;
+	text-decoration: none;
+}
+.l-header .hover-btn--reg, .l-header .hover-btn--reg:hover {
+	background: #ffa200;
+	margin-right: 10px;
+	color: #333;
+	text-decoration: none;
+}
