@@ -2821,7 +2821,8 @@ div .box__faq__related li {
 .multimedia{
 	width: 1060px;
 	height: 480px;
-	background-color: #4E3D1C;
+	background: url(../i/minisite5/modal-bg.png);
+	background-color: #4e3d1c;
 	font-size: 13px;
 }
 
@@ -2933,39 +2934,47 @@ div .box__faq__related li {
 		color: #fff;
 		margin-top: 20px;
 	}
+	.multimedia .popup-foot-pattern{
+		background: url(../i/minisite5/modal-footer-pattern.png);
+		height: 35px;
+		clear: both;
+	}
 	.multimedia .personal-details{
 		background:#fff;
 	}
+		.multimedia .personal-details .load-more{
+			font-family: 'BebasRegular';
+			}
 		.multimedia .personal-details .interest p{
 			margin: 0;
-		}
+			}
 		.multimedia .personal-details .box{
 			border-bottom:  1px solid #dfdfdf;
 			padding: 7px 0 9px 10px;
-		}
+			}
 		.multimedia .personal-details .comment{
 			padding-bottom: 20px;
-		}
+			}
 		.multimedia .personal-details textarea{
 			width: 70%;
 			margin-left: 52px;
-		}
+			}
 		.multimedia .personal-details .content{
 			margin: 0px 4px 0px 46px;
-		}
+			}
 		.multimedia .personal-details .content .meta {
 			padding-right: 2px;
 			color: #848484;
 			overflow: hidden;
-		}
+			}
 		.multimedia .personal-details .content .meta p{
 			margin: 4px 6px;
-		}
+			}
 		.multimedia .rate a{
 			font-size: 11px;
 			font-weight: normal;
 			margin-left: 4px;
-		}
+			}
 	.multimedia .offset{
 		margin-left: 55px;
 	}

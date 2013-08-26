@@ -1,0 +1,140 @@
+/*modal pages*/
+.photo{
+	position: fixed;
+	left: 10%;
+	top: 20%;
+	z-index:1000;
+}
+.photo-content{
+	width: 1060px;
+	height: 480px;
+	font-size: 13px;
+	background:#4e3d1c;
+}
+.photo a{
+	text-decoration: none;
+	color: #0099ff;
+	font-size: 13px;
+	font-weight:bold;
+}
+.photo-content .picture{
+	float: left;
+	width: 720px;
+	height: 480px;
+}
+.photo-content .close-btn {
+	float: right;
+	top: 12px;
+	right: 26px;
+	background-image: url(../../i/minisite5/close-btn.png);
+	display: block;
+	background: url(../i/close-btn.png) left top no-repeat;
+	width: 16px;
+	height: 15px;
+	direction: ltr;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+.photo-content .side-message{
+	padding: 0 10px;
+}
+.photo-content .close{
+	height: 56px;
+}
+.photo-content .close a{
+	margin: 10px;
+}
+.photo-content .info{
+	width: 100%;
+}
+.photo-content .detail{
+	padding-left: 10px;
+}
+.photo-content .handle-name{
+	float: left;
+}
+.photo-content .detail-top{
+	width: 100%;
+}
+.photo-content .detail-top p{
+	float: left;
+	margin: 0;
+	color: #fff;
+	font-weight:bold;
+}
+.photo-content .detail-top span{
+	float: right;
+	color: #fff;
+}
+.photo-content .detail-con{
+	width: 100%;
+	overflow: hidden;
+	color: #fff;
+	margin-top: 20px;
+}
+.photo-content .personal-details{
+	background:#fff;
+}
+.photo-content .personal-details .interest p{
+	margin: 0;
+}
+.photo-content .personal-details .box{
+	border-bottom:  1px solid #dfdfdf;
+	padding: 7px 0 9px 10px;
+}
+.photo-content .personal-details .comment{
+	padding-bottom: 20px;
+}
+.photo-content .personal-details textarea{
+	width: 70%;
+	margin-left: 52px;
+}
+.photo-content .personal-details .content{
+	margin: 0px 4px 0px 46px;
+}
+.photo-content .personal-details .content .meta {
+	padding-right: 2px;
+	color: #848484;
+	overflow: hidden;
+}
+.photo-content .personal-details .content .meta p{
+	margin: 4px 6px;
+}
+.photo-content .rate a{
+	font-size: 11px;
+	font-weight: normal;
+	margin-left: 4px;
+}
+.photo-content .offset{
+	margin-left: 55px;
+}
+.arrowleft{
+	position: absolute;
+	top: 50%;
+	width: 34px;
+	height: 34px;
+	margin-top: -20px;
+	margin-left: 10px;
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+	background: #222;
+	left: auto;
+	background-image: url(../i/arrow-left.png);
+	background-position: 
+}
+.arrowright{
+	position: absolute;
+	top: 50%;
+	width: 34px;
+	height: 34px;
+	margin-top: -20px;
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+	background: #222;
+	right: 15px;
+	left: 64%;
+	background-image: url(../i/arrow-right.png);
+	background-position: 
+}
