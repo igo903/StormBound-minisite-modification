@@ -16,6 +16,7 @@
 	<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
     <script src="js/jquery.dateFormat-1.0.js" type="text/javascript"></script>
 	<script src="js/jquery.jqtransform.js" type="text/javascript"></script>
+    <script src="js/jquery.jcarousel.min.js" type="text/javascript"></script>
 	<script src="js/scripts.js" type="text/javascript"></script>
     
     <!-- skin -->
@@ -253,7 +254,7 @@
             <div class="stormbound-details">
             	<div class="stormbound-details__thumbs">
                 	<img src="i/minisite5/storm-bound-pic.jpg" alt="THUMBS" />
-                    <a href="javascript::" class="button">PLAY NOW</a>
+                    <a href="javascript::" class="button js-popup-photo">PLAY NOW</a>
                 </div>
                 <!-- Thumbs -->
                 
@@ -674,5 +675,112 @@
     <!--End .content -->
 </div>
 <!--End .l-footer-->
+
+<div class="alpha"></div>
+<!--End .alpha-->
+<!--popup photo-->
+<div class="popup popup--photo multimedia">
+    <div class="jcarousel-container float-left">
+        <div class="jcarousel-clip">
+        <ul class="picture" >
+            <li><img src="i/minisite5/2052109.jpg" alt="" /></li>
+            <li><img src="i/minisite5/20521012.jpg" alt="" /></li>
+            <li><img src="i/minisite5/20521014.jpg" alt="" /></li>
+            <li><img src="i/minisite5/20521015.jpg" alt="" /></li> 
+        </ul>
+        </div>
+    </div>
+
+
+    <div class="side-message clearfix">
+        <div class="close">
+            <a href="javascript:;" class="close-btn">X</a>
+        </div>
+        <div class="info">
+            <div class="handle-name">
+                <a href="javascript:;"><img src="i/handlename.png"></a>
+            </div>
+            <div class="detail clearfix">
+                <div class="detail-top">
+                    <p><a href="javascript:;">Handle name</a></p>
+                    <span>2 June 2013</span>
+                </div>
+                <p class="detail-con">My brother's house during the winter</p>
+            </div>
+        </div>
+        <!-- End info -->
+        <div class="personal-details">
+            <div class="interest box">
+                <p class="rate">you like this 
+                <img src="i/square.png" alt="Handle name">
+                <img src="i/square.png" alt="Handle name">
+                <img src="i/square.png" alt="Handle name">
+                <a href="javascript:;">and 14 others</a>
+                <span class="float-right">
+                    <img src="i/vote.png"  alt="vote">
+                    <img src="i/add.png" alt="add">
+                </span>
+                </p>
+            </div>
+            <div class="box">
+                <img src="i/handlename.png" class="float-left">
+                <div class="content">
+                    <div class="meta">
+                        <p><a href="javascript:;">Handle name</a> - this is great!!</p>
+                        <p class="rate">41 Minutes ago  
+                        <a href="javascript:;">Reply</a>
+                        <a href="javascript:;">Like</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="box ">
+                <img src="i/handlename.png" class="float-left">
+                <div class="content">
+                    <div class="meta">
+                        <p><a href="javascript:;">Handle name</a> - this is great!!</p>
+                        <p class="rate">41 Minutes ago  
+                        <a href="javascript:;">Reply</a>
+                        <a href="javascript:;">Like</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="i/handlename.png" class="float-left offset">
+                <div class="content">
+                    <div class="meta">
+                        <p><a href="javascript:;">Handle name</a> - this is great!!</p>
+                        <p class="rate">41 Minutes ago  
+                        <a href="javascript:;">Reply</a>
+                        <a href="javascript:;">Like</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p class="load-more">Load more..</p>
+            </div>
+            <div class="box comment">
+               <img src="i/handlename.png" class="float-left">
+               <textarea cols="" rows="1" class="textarea" style="resize: none;">Write a comment</textarea>
+            </div>
+        </div>
+        <!--End  personal-details-->
+    </div>
+
+    <div class="popup-foot-pattern clearfix"></div>
+</div>
+<!--End .popup photo-->
+
+<script type="text/javascript">
+    jQuery('.popup--photo .picture').jcarousel({
+            wrap: 'circular'
+    });
+</script>
+
+
+
+
 </body>
 </html>
