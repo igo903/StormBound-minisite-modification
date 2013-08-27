@@ -2883,6 +2883,19 @@ div .box__faq__related li {
 	.multimedia .picture li{
 		width: 720px;
 		height: 480px;
+		position: relative;
+	}
+	.multimedia .picture li .caption{
+		font-size: 13px;
+		width: 100%;
+		height: 58px;
+		line-height: 58px;
+		padding:0px 10px;
+		background: rgba(0,0,0,.5);
+		position: absolute;
+		bottom: 0;
+		color: #fff;
+
 	}
 	.multimedia .close-btn {
 		float: right;
@@ -6626,37 +6639,6 @@ div .help-filter {
 .comments-section .book-icon{background-position: 0px -74px;}
 .comments-section .character-icon{background-position: 5px -106px;}
 .comments-section .symbol-icon{background-position: 5px -142px;}
-
-/*.smiling-face-icon{
-	background-image: url(../i/minisite5/notificaitons-css-sprite.png);
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	padding:6px 18px;
-}
-.desk-icon{
-	background-image: url(../i/minisite5/notificaitons-css-sprite.png);
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	padding:44px 18px;
-}
-.book-icon{
-	background-image: url(../i/minisite5/notificaitons-css-sprite.png);
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	padding:78px 18px;
-}
-.character-icon{
-	background-image: url(../i/minisite5/notificaitons-css-sprite.png);
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	padding:114px 18px;
-}
-.symbol-icon{
-	background-image: url(../i/minisite5/notificaitons-css-sprite.png);
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	padding:154px 18px;
-}*/
 
 /*home page*/
 .hover-btn-signIn{
